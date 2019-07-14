@@ -1,0 +1,57 @@
+body {
+  font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;  
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;  
+  background-color: #333;
+  color:#fff;
+
+}
+
+.item {
+  display: flex;
+  margin: 0;
+  align-content: center;
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  figure {
+    margin: 0;
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0; 
+    padding: 20px;
+   
+
+    h1 {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    .info {
+      margin-top: auto;
+      font-size: 18px;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;      
+    }
+  }  
+}
