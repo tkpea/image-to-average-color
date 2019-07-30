@@ -1,5 +1,8 @@
 # image-to-average-color
-
+## install
+```
+npm i image-to-average-color
+```
 ## function
 ```
 ImageToAverageColor(src: string): Promise<number>
