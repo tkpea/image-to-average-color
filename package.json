@@ -1,6 +1,31 @@
 {
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "sass": "^1.22.3"
-  }
+    "sass": "^1.22.9"
+  },
+  "name": "image-to-average-color",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkpea/image-to-average-color.git"
+  },
+  "keywords": [
+    "image",
+    "color"
+  ],
+  "author": "Takuya Takahashi <tkpea56@gmail.com> (https://github.com/tkpea)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkpea/image-to-average-color/issues"
+  },
+  "homepage": "https://github.com/tkpea/image-to-average-color#readme"
 }

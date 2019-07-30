@@ -1,4 +1,4 @@
-import {GetAverageColorFromImage} from './js/GetAverageColorFromImage'
+import {ImageToAverageColor} from '../..'
 import {rgbToHsl,hslToRgb, rgbToColorCode} from './js/ColorUtils'
 
 const fileInput = document.querySelector('.file-input')
@@ -11,7 +11,7 @@ fileInput.addEventListener('change', (event) =>{
     return false;
   }
   reader.onload = ((file) => {
-    GetAverageColorFromImage(file.target.result).then((res)=>{
+    ImageToAverageColor(file.target.result).then((res)=>{
       let bgColor = `rgba(${res[0]}, ${res[1]}, ${res[2]},1.0)`
       // テキストカラーを計算
       let hsl = rgbToHsl(res)
