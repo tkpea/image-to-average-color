@@ -1,7 +1,9 @@
 # image-to-average-color
 
 ## function
+```
 ImageToAverageColor(src: string): Promise<number>
+```
 
 ## use
 ```
