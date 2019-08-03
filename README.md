@@ -1,6 +1,9 @@
 # image-to-average-color
 Get the average RGB value of the image
 
+## DEMO
+https://tkpea.github.io/image-to-average-color/example/dist/
+
 ## install
 ```
 npm i image-to-average-color
