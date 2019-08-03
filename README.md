@@ -13,7 +13,7 @@ npm i image-to-average-color
 ImageToAverageColor(src: string): Promise<number>
 ```
 
-## usege
+## usage
 ```
 import {ImageToAverageColor} from 'image-to-average-color'
 
