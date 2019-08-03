@@ -4,13 +4,12 @@
     "sass": "^1.22.9"
   },
   "name": "image-to-average-color",
-  "description": "",
-  "version": "1.0.0",
+  "description": "Get the average RGB value of the image",
+  "version": "1.0.1",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

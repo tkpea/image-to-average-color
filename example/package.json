@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "rm -rf ./dist && parcel build -d dist ./index.html --public-url ./"
+  },
+  "author": "Takuya Takahashi <tkpea56@gmail.com> (https://github.com/tkpea)",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
+}
